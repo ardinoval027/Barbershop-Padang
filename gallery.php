@@ -20,27 +20,21 @@
   
   </head>
 
+
+
   <body>
 
    <section id="container" >
       <header class="header black-bg">
              
             <a class="logo"><p><b style="font-size: 20px">WeBGiS Barbershop</b></p></a>
-            <!-- <a href="admin/login.php" class="logo1" title="Login" style="margin-top: -4px"><img src="assets/ico/112.png"></a> -->
- 
         </header>
       <aside>
           <div id="sidebar"  class="nav-collapse ">
               <ul class="sidebar-menu" id="nav-accordion">
 				          <p class="centered"><a href=""><img src="assets/img/bbshp2.png" class="img-circle" width="80"></a></p>
                   <h5 class="centered"><p>Barbershop</p></h5>
-                  <!-- <li class="sub-menu">
-                      <a href="index.php">
-                          <i class="fa fa-arrow-left"></i>
-                          <span>Kembali ke Home</span>
-                      </a>
-                  </li>  -->
-
+                  
 				</ul>
           </div>
       </aside>
@@ -50,7 +44,7 @@
               <div class="col-sm-7" id="result">
     <section class="panel">
                     <div class="panel-body">
-                        <a class="btn btn-compose"style ="background-color: #9e1134">Gallery Barbershop</a>
+                        <a class="btn btn-compose"style ="background-color: #9e1134">Gallery Barbershopp</a>
                         <div class="content" style="text-align:center;">
                         <div class="html5gallery" style="max-height:600px;overflow:auto;" data-skin="horizontal" data-width="500" data-height="300" data-resizemode="fit">  
                         <?php
