@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="assets/css/bootstrap-slider.css" type="text/css">
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNnzxae2AewMUN0Tt_fC3gN38goeLVdVE"></script>
     <script src="assets/js/chart-master/Chart.js"></script>
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<style type="text/css">
       #legend {
         background:white;
