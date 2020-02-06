@@ -2,7 +2,7 @@ window.onload=basemap;
 var centerBaru;
 var map;
 var markersDua  = [];
-var server = "https://barbershoppdgapp.herokuapp.com/barbershoppdg/admin/act/";
+var server = "https://barbershoppdgapp.herokuapp.com/admin/act/";
 
 function init(){
     basemap();

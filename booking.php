@@ -243,7 +243,7 @@ $id_barbershop=$_GET['id_bbs'];
   <script src="assets/js/advanced-form-components.js"></script>  
 
   <script type="text/javascript">
-    var server = "https://barbershoppdgapp.herokuapp.com/barbershoppdg/";
+    var server = "https://barbershoppdgapp.herokuapp.com/";
     var tgl = document.getElementById('tanggal');
     var jam = document.getElementById('jam');
     var barber = document.getElementById('barber');

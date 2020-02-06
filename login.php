@@ -52,7 +52,7 @@ if(isset($_SESSION['A'])){
                 <center> <b> WebGIS BARBERSHOP PADANG </b> </center>
                 <center> NEW RULES : </center>
                 <center>⛔ UNTUK MENGHINDARI FULL BOOKING, KITA OPEN BOOKING H-1 ⛔ </center>
-                <center> <b> Available for booking and walk-in Book and See on maps </b> 👉 <a href = "https://barbershoppdgapp.herokuapp.com/barbershoppdg">https://barbershoppdgapp.herokuapp.com/barbershoppdg</a> </center>
+                <center> <b> Available for booking and walk-in Book and See on maps </b> 👉 <a href = "https://barbershoppdgapp.herokuapp.com">https://barbershoppdgapp.herokuapp.com</a> </center>
 		
 		        </div>
 			
