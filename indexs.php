@@ -247,7 +247,7 @@ session_start();
                   </li>
                   
              </ul>
-             <marquee style = "color : white"><b> WebGIS BARBERSHOP PADANG || ⛔ Available for booking and walk-in Book and See on maps 👉 http://localhost/barbershoppdg</b></marquee>
+             <marquee style = "color : white"><b> WebGIS BARBERSHOP PADANG || ⛔ Available for booking and walk-in Book and See on maps 👉 https://barbershoppdgapp.herokuapp.com/barbershoppdg</b></marquee>
           </div>
       </aside>
 

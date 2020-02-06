@@ -15,7 +15,7 @@ var marker_1 = []; //MARKER UNTUK POSISI SAAT INIvar marker_2 = []; //MARKER UNT
 var marker_2 = [];
 var awal = 0;
 var tujuan = 0;
-var server = "http://localhost/barbershoppdg/";
+var server = "https://barbershoppdgapp.herokuapp.com/barbershoppdg/";
 var kecamatan;
 
 

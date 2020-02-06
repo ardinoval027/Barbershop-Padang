@@ -2,7 +2,7 @@ window.onload=basemap;
 var centerBaru;
 var map;
 var markersDua  = [];
-var server = "http://localhost/barbershoppdg/admin/act/";
+var server = "https://barbershoppdgapp.herokuapp.com/barbershoppdg/admin/act/";
 
 function init(){
     basemap();
@@ -52,50 +52,3 @@ function cari_lokasi(rows) //fungsi cari barbershop berdasarkan nama
 }
 
 
-/*function basemap(){
-  map = new google.maps.Map(document.getElementById('map'), 
-        {
-          zoom: 13.2,
-          // center: new google.maps.LatLng(-0.924140, 100.403460),
-          mapTypeId: google.maps.MapTypeId.ROADMAP,
-        });
-  var id = <?php echo $id; ?>;
-  var latitude = <?php echo $lat; ?>;
-  var longitude = <?php echo $lng; ?>;
-  centerBaru = new google.maps.LatLng(latitude, longitude);
-  marker = new google.maps.Marker({
-    position: centerBaru,
-    map: map
-    
-  });
-  
-  console.log(id);
-  console.log(latitude);
-  console.log(longitude);
-  map.setZoom(14);
-  map.setCenter(centerBaru);
-  markers.push(marker);
-}
-function cari_pesanan() 
-{
-  var id = <?php echo $id; ?>;
-  var latitude = <?php echo $lat; ?>;
-  var longitude = <?php echo $lng; ?>;
-  centerBaru = new google.maps.LatLng(latitude, longitude);
-  marker = new google.maps.Marker({
-    position: centerBaru,
-    map: map,
-    animation: google.maps.Animation.DROP,
-  });
-  infowindow = new google.maps.InfoWindow({
-              position: centerBaru,
-              content: "<a style='color:black;'>Lokasi Pesta</a> "
-              });
-  console.log(id);
-  console.log(latitude);
-  console.log(longitude);
-  map.setZoom(13);
-  infowindow.open(map, marker);
-  map.setCenter(centerBaru);
-}
-*/

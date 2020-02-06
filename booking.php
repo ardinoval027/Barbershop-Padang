@@ -103,13 +103,11 @@ $id_barbershop=$_GET['id_bbs'];
                             <?php 
                             $tgl=date('dmY');
                             include 'connect.php';
-                                  //$query = pg_query("SELECT MAX(id) AS id_booking FROM booking WHERE id LIKE '%$tgl%' ");
-                                  //$result = pg_fetch_array($query);
                                   $id = $result['id_booking'];
                                   $idmax = substr($id, 8);
                                   if ($idmax==null) {$idmax=1; $idmax=str_pad($idmax, 3, '0', STR_PAD_LEFT);}
                                   else {$idmax++; $idmax=str_pad($idmax, 3, '0', STR_PAD_LEFT);}
-                                  // $idmax = ($idmax==null ? 1 : $idmax+1)
+                                  
 
                             $id_booking = $tgl.$idmax;
                             ?>
@@ -245,7 +243,7 @@ $id_barbershop=$_GET['id_bbs'];
   <script src="assets/js/advanced-form-components.js"></script>  
 
   <script type="text/javascript">
-    var server = "http://localhost/barbershoppdg/";
+    var server = "https://barbershoppdgapp.herokuapp.com/barbershoppdg/";
     var tgl = document.getElementById('tanggal');
     var jam = document.getElementById('jam');
     var barber = document.getElementById('barber');
