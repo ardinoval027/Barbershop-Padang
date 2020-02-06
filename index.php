@@ -219,18 +219,18 @@
                        </div>
                 </div>
       
-    <?php 
-    include 'connect.php';
-    $sql = pg_query("SELECT * FROM barbershop");
-     ?>
-    <?php
-      $jml_kolom=3;
-      $cnt = 1;
-      while($data =  pg_fetch_assoc($sql)){
-    		if ($cnt >= $jml_kolom) 
-    		{
-              echo "<div class='row mt mb'>";
-    		}
+    <!-- <?php 
+    // include 'connect.php';
+    // $sql = pg_query("SELECT * FROM barbershop");
+    //  ?>
+    // <?php
+    //   $jml_kolom=3;
+    //   $cnt = 1;
+    //   while($data =  pg_fetch_assoc($sql)){
+    // 		if ($cnt >= $jml_kolom) 
+    // 		{
+    //           echo "<div class='row mt mb'>";
+    // 		}
  
          ?>
   <div class="row-mt">
@@ -239,26 +239,26 @@
 			<div class="project">
 				<div class="photo-wrapper">
 					<div class="photo">
-						<a class="fancybox" href="foto/<?php echo $data['image']; ?>"><img class="img-responsive" src="foto/<?php echo $data['image']; ?>" alt=""></a>
+						<a class="fancybox" href="foto/<?php //echo $data['image']; ?>"><img class="img-responsive" src="foto/<?php echo $data['image']; ?>" alt=""></a>
 					</div>
 					<div class="overlay"></div>
-					<p style="color: #f3fff4"><?php echo $data['name']; ?><br><?php echo $data['address']; ?></p>
+					<p style="color: #f3fff4"><?php //echo $data['name']; ?><br><?php //echo $data['address']; ?></p>
 				</div>
 			</div>      
 		</div>      
 	</div>
-  </div>      
+  </div>       -->
       
   <?php
-  if ($cnt >= $jml_kolom) 
-		{
+  // if ($cnt >= $jml_kolom) 
+	// 	{
           
-          $cnt = 0;
-		  echo "</div>";
-		}
-		$cnt++;
-  }
-  ?> -->
+  //         $cnt = 0;
+	// 	  echo "</div>";
+	// 	}
+	// 	$cnt++;
+  // }
+  ?> 
  
 
       </div>

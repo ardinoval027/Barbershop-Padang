@@ -325,24 +325,24 @@ session_start();
                 </section>
                  </div>
           
-                        <?php
-            include ("connect.php");
-                        $sql = pg_query("SELECT * FROM event order by id asc");
-                        while($data =  pg_fetch_array($sql)){
-                        $id = $data['id'];
-                        $name = $data['name'];
+                        <!-- <?php
+            // include ("connect.php");
+            //             $sql = pg_query("SELECT * FROM event order by id asc");
+            //             while($data =  pg_fetch_array($sql)){
+            //             $id = $data['id'];
+            //             $name = $data['name'];
                         ?>
                         <tr>
-                        <td><?php echo "$id"; ?></td>
-                        <td><?php echo "$name"; ?></td>
+                        <td><?php // echo "$id"; ?></td> -->
+                        <!-- <td><?php // echo "$name"; ?></td> -->
                         
-                        </div>
+                        <!-- </div>
                         </td>
                         </tr>
-                        <?php } ?>
-                        </tbody>
-                        </table> 
-                      </div>                   
+                        <?php // } ?> -->
+                        <!-- </tbody>
+                        </table> -->
+                      <!-- </div>                   
                   </div>
                     </div>
                 </section>

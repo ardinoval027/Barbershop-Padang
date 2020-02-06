@@ -554,7 +554,7 @@ function detailbarbershop(id1){  //menampilkan informasi barbershop
             if(rating == null){
               $('#point_rating').html("Rating: "+ "-");
             }else{
-              $('#point_rating').html("Rating: "+(Math.round(rating * 100) / 100).toFixed(2));
+              $('#point_rating').html("Rating: "+(rating).toFixed(2));
             }
             if(nilai == null){
               $('#star_5').prop("checked",false);

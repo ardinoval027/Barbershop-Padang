@@ -625,9 +625,9 @@ function detailbarbershop(id1){  //menampilkan informasi barbershop
             console.log(rating);
             // var nilai = row.nilai;
             if(rating == null){
-              $('#point_rating').html("Rating: "+ "-");
+              $('#point_rating').html("Ratings: "+ "-");
             }else{
-            $('#point_rating').html("Rating: "+ rating);
+            $('#point_rating').html("Ratings: "+ (rating).toFixed(2));
             }
             centerBaru = new google.maps.LatLng(row.latitude, row.longitude);
             marker = new google.maps.Marker
